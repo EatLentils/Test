@@ -1,6 +1,5 @@
 package exercises;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
@@ -13,7 +12,7 @@ public class Appending {
 			list1.add(list2.get(i));
 		}
 	}
-	
+	//yes
 	public static <E> void append4a(List<E> list1, List<E> list2){
 		ListIterator it = list2.listIterator();
 		while(it.hasNext()){
